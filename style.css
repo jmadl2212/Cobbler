@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Licorice", cursive;
+  padding-top: 20px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+h6 {
+  padding-bottom: 20px;
+}
+
+#C3, 
+#C4,
+.location,
+.instructions,
+.testimonials,
+.testimonial1,
+.testimonial2,
+.copywrite {
+  color: white;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.location {
+  padding: 0 15px;
+}
+
+.testimonial2 {
+  margin: 0 35px;
+}
+
+.repair {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 35px;
+  padding: 0px 35px;
+  background-color: white;
+  box-shadow: 1px 10px 25px 2px hsl(240, 2%, 8%);
+  border-top: 5px solid hsl(34, 100%, 56%);
+  border-radius: 3%;
+}
+
+.p {
+  font-family: "Merriweather", serif;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+}
+.profile-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  box-shadow: 1px 5px 10px 1px hsl(0, 0%, 15%);
+}
+
+.workbench {
+  height: 250px;
+  width: 350px;
+  margin-bottom: 15px;
+  border-radius: 3%;
+}
+
+.workshop {
+  height: 400px;
+  width: 550px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 3%;
+  box-shadow: 1px 10px 25px 2px hsl(240, 2%, 8%);
+}
+
+.womens-sandals,
+.brown-sandals,
+.colorful-sandals,
+.mens-sandals {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 5px 10px 1px hsl(0, 0%, 15%);
+}
+
+.top-container {
+  background-color: #64CCC5;
+  margin: 25px 550px 15px 550px; 
+  padding-bottom: 30px;
+  padding-top: 5px;
+  text-align: center;
+  border-radius: 3%;
+}
+
+.middle-container {
+  background-color: #176B87;
+  margin: 25px 550px 25px 550px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 3%;
+}
+
+.bottom-container {
+  background-color: #053B50;
+  text-align: center;
+}
